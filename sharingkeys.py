@@ -1,5 +1,5 @@
-mod = int(input('Enter the publicly decided number to find the mod to: '))
-base = int(input('Enter the publically decided generator:'))
+mod = int(input('Enter the publicly decided prime modulus: '))
+base = int(input('Enter the publically decided generator: '))
 secret = int(input('Enter the secret number Bob chose as the index:'))
 
 bob = (base ** secret) % mod
