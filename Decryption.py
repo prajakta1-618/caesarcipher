@@ -27,5 +27,5 @@ def decrypt(text,s):
 
 text = input("Enter the text to be encrypted: ")
 s = int(input('Enter the secret shared key: '))
-decrypted = encrypt(text, -s)
+decrypted = decrypt(text, -s)
 print('The decrypted message is ', decrypted)
